@@ -41,8 +41,8 @@ apk-mbedtls base-files ca-bundle dnsmasq-full dropbear firewall4 fitblk fstools 
 #!/bin/sh
 
 # ЗАДАЙТЕ ИМЯ СЕТИ И ПАРОЛЬ (МИНИМУМ 8 СИМВОЛОВ):
-SSID="Cudy-2EDC"
-WIFI_PASS="33497723"
+SSID="name_wifi"
+WIFI_PASS="password_wifi"
 
 # Включаем все доступные радиомодули (2.4GHz и 5GHz)
 for r in 0 1 2; do
